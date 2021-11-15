@@ -35,11 +35,11 @@
     </h2>
      {% if post.image_proj %}
 <!--       <h1> {{base_path}}{{ post.image_proj }} </h1> -->
-      <img src="{{base_path}}{{ post.image_proj }}" style="padding-top:20px" align="left" height="200" width="200">
+      <img src="{{base_path}}{{ post.image_proj }}" style="padding-top:20px;padding-right:10px" align="left" height="200" width="200">
     {% endif %}
     
     {% if post.proj_desc %}
-      <p style="padding-left:20px"> {{ post.proj_desc }} </p>
+      <p style="text-align:left"> {{ post.proj_desc }} </p>
     {% endif %}
     
     
