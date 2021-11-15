@@ -35,11 +35,11 @@
     </h2>
      {% if post.image_proj %}
 <!--       <h1> {{base_path}}{{ post.image_proj }} </h1> -->
-      <img src="{{base_path}}{{ post.image_proj }}" height="100" width="100" class="inline">
+      <img src="{{base_path}}{{ post.image_proj }}" align="top" height="100" width="100" class="inline">
     {% endif %}
     
     {% if post.proj_desc %}
-      <p style="display:inline; align="justify"> {{ post.proj_desc }} </p>
+      <p style="display:inline"> {{ post.proj_desc }} </p>
     {% endif %}
     
     
