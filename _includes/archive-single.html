@@ -25,6 +25,8 @@
           alt="">
       </div>
     {% endif %}
+    {% if image_proj %}
+      <img src="{{base_path}}{{images}}{{}}" width="42" height="42" class="inline">
 
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
@@ -59,6 +61,5 @@
     {% elsif post.paperurl %}
       <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
     {% endif %}
-    <img src="https://github.com/antonyalbertraj1994/antonyalbertraj1994.github.io/blob/master/images/antony_final.png" width="42" height="42">
   </article>
 </div>
