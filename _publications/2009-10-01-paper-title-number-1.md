@@ -1,5 +1,6 @@
 ---
 title: "Paper Title Number 1"
+![Image](https://github.com/antonyalbertraj1994/antonyalbertraj1994.github.io/blob/master/images/antony_final.png)
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
