@@ -29,7 +29,7 @@
       <h1> {{base_path}}{{ post.image_proj }} </h1>
       <img src="{{base_path}}{{ post.image_proj }}" height="50" width="50" class="inline">
     {% endif %}
-    <h2 class="archive__item-title" itemprop="headline">
+    <h2 class="archive__item-title" itemprop="headline" style="display:inline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
