@@ -27,6 +27,7 @@
     {% endif %}
     {% if post.image_proj %}
       <h1> {{base_path}}{{ post.image_proj }} </h1>
+      <img src="{{base_path}}{{ post.image_proj }}" height="50" width="50">
     {% endif %}
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
