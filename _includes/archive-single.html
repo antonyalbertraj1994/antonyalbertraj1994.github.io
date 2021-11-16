@@ -41,9 +41,9 @@
       <img src="{{base_path}}{{ post.image_proj }}" style="padding-right:10px" align="left" height="200" width="200">
     {% endif %}
     <div class="title">
-    {% if post.title %}
-      <b style="text-align:left;margin-bottom:15px"> {{ post.title }} </b> 
-    {% endif %}
+      {% if post.title %}
+        <b style="text-align:left;margin-bottom:15px"> {{ post.title }} </b> 
+      {% endif %}
     </div>
           
     {% if post.authors %}
