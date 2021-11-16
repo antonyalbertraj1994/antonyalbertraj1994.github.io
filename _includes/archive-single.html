@@ -38,7 +38,7 @@
     
      {% if post.image_proj %}
 <!--       <h1> {{base_path}}{{ post.image_proj }} </h1> -->
-      <img src="{{base_path}}{{ post.image_proj }}" style="padding-right:10px" align="top" height="200" width="200">
+      <img src="{{base_path}}{{ post.image_proj }}" style="padding-right:10px" align="left" height="200" width="200">
     {% endif %}
     
     {% if post.title %}
@@ -47,11 +47,11 @@
     
           
     {% if post.authors %}
-      <b style="text-align:top;font-size:15px; margin-bottom:-30px;padding-bottom:-30px"> {{ post.authors }} </b>
+      <b style="text-align:left;font-size:15px; margin-bottom:-30px;padding-bottom:-30px"> {{ post.authors }} </b>
     {% endif %}
     
     {% if post.proj_desc %}
-      <p style="text-align:top; padding:0px; margin:10px"> {{ post.proj_desc }} </p>
+      <p style="text-align:lefy; padding:0px; margin:10px"> {{ post.proj_desc }} </p>
     {% endif %}
     
     {% if post.pdf %}
