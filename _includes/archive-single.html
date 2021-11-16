@@ -40,14 +40,14 @@
 <!--       <h1> {{base_path}}{{ post.image_proj }} </h1> -->
       <img src="{{base_path}}{{ post.image_proj }}" style="padding-right:10px" align="left" height="200" width="200">
     {% endif %}
-    <div class="title">
-      {% if post.title %}
-        <b style="text-align:left;margin-bottom:15px;padding-bottom:15px"> {{ post.title }} </b> <br>
-      {% endif %}
-    </div>
+    
+    {% if post.title %}
+      <b style="text-align:left;margin-bottom:15px;padding-bottom:15px"> {{ post.title }} </b> <br>
+    {% endif %}
+    
           
     {% if post.authors %}
-      <b style="text-align:left;font-size:12px"> {{ post.authors }} </b>
+      <b style="text-align:left;font-size:15px; margin-bottom:-10px"> {{ post.authors }} </b>
     {% endif %}
     
     {% if post.proj_desc %}
