@@ -33,14 +33,17 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
+    
+    {% if post.authors %}
+      <h5 style="text-align:left"> {{ post.authors }} </h5>
+    {% endif %}
+    
      {% if post.image_proj %}
 <!--       <h1> {{base_path}}{{ post.image_proj }} </h1> -->
       <img src="{{base_path}}{{ post.image_proj }}" style="padding-top:20px;padding-right:10px" align="left" height="200" width="200">
     {% endif %}
     
-    {% if post.authors %}
-      <h5 style="text-align:left"> {{ post.authors }} </h5>
-    {% endif %}
+
     
     {% if post.proj_desc %}
       <p style="text-align:left"> {{ post.proj_desc }} </p>
