@@ -10,7 +10,6 @@ pdf: 'https://www.youtube.com/watch?v=IQ1f2N0jcTk'
 acmlink: 'https://www.youtube.com/watch?v=IQ1f2N0jcTk'
 video: 'https://www.youtube.com/watch?v=IQ1f2N0jcTk'
 talk: 'https://www.youtube.com/watch?v=IQ1f2N0jcTk'
-citation:
 ---
 
 
