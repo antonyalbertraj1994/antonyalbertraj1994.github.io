@@ -59,15 +59,15 @@
     {% endif %}
     
     {% if post.acmlink %}
-      <p style="text-align:left"> {{ post.acmlink }} </p>
+      <p style="text-align:left"> <a href="{{ acmlink.pdf }}">DOI</a> </p>
     {% endif %}
     
     {% if post.video %}
-      <p style="text-align:left"> {{ post.video }} </p>
+      <p style="text-align:left"> <a href="{{ video.pdf }}">VIDEO</a> </p>
     {% endif %}
     
     {% if post.talk %}
-      <p style="text-align:left"> {{ post.talk }} </p>
+      <p style="text-align:left"> <a href="{{ talk.pdf }}">TALK</a> </p>
     {% endif %}
     
     
