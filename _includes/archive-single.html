@@ -38,15 +38,15 @@
     
      {% if post.image_proj %}
 <!--       <h1> {{base_path}}{{ post.image_proj }} </h1> -->
-      <img src="{{base_path}}{{ post.image_proj }}" style="padding-top:20px;padding-right:10px" align="left" height="200" width="200">
+      <img src="{{base_path}}{{ post.image_proj }}" style="padding-right:10px" align="left" height="200" width="200">
     {% endif %}
     
     {% if post.title %}
-      <h5 style="text-align:left"> {{ post.title }} </h5>
+      <h4 style="text-align:left;font-weight:normal"> {{ post.title }} </h5>
     {% endif %}
           
     {% if post.authors %}
-      <h5 style="text-align:left"> {{ post.authors }} </h5>
+      <h4 style="text-align:left"> {{ post.authors }} </h5>
     {% endif %}
     
     {% if post.proj_desc %}
