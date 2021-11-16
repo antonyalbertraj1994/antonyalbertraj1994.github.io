@@ -47,11 +47,27 @@
     
           
     {% if post.authors %}
-      <b style="text-align:left;font-size:15px; margin-bottom:-30px"> {{ post.authors }} </b>
+      <b style="text-align:left;font-size:15px; margin-bottom:-30px;padding-bottom:-30px"> {{ post.authors }} </b>
     {% endif %}
     
     {% if post.proj_desc %}
       <p style="text-align:left"> {{ post.proj_desc }} </p>
+    {% endif %}
+    
+    {% if post.pdf %}
+      <p style="text-align:left"> <a href="{{ post.pdf }}">PDF</a> </p>
+    {% endif %}
+    
+    {% if post.acmlink %}
+      <p style="text-align:left"> {{ post.acmlink }} </p>
+    {% endif %}
+    
+    {% if post.video %}
+      <p style="text-align:left"> {{ post.video }} </p>
+    {% endif %}
+    
+    {% if post.talk %}
+      <p style="text-align:left"> {{ post.talk }} </p>
     {% endif %}
     
     
