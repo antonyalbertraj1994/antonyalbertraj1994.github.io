@@ -51,15 +51,16 @@
     {% endif %}
     
     {% if post.proj_desc %}
-      <p style="text-align:left; padding:10px; margin:10px"> {{ post.proj_desc }} </p> <br>
+      <p style="text-align:left; padding:10px; margin:10px"> {{ post.proj_desc }} </p> 
     {% endif %}
     
+    <center>
     {% if post.pdf %}
-    <center> <div style="padding-right:15px"> <a href="{{ post.pdf }}">PDF</a> </div> </center>
+      <b style="padding-right:15px"> <a href="{{ post.pdf }}">PDF</a> </div> </center>
     {% endif %}
     
     {% if post.acmlink %}
-      <div style="padding-right:10px"> <a href="{{ post.acmlink }}">DOI</a> </div>
+      <b style="padding-right:10px"> <a href="{{ post.acmlink }}">DOI</a> </div>
     {% endif %}
     
     {% if post.video %}
@@ -68,7 +69,8 @@
     
     {% if post.talk %}
       <b style="text-align:left"> <a href="{{ post.talk }}">TALK</a> </b> <br>
-    {% endif %}    
+    {% endif %}
+    </center>
     <p> </p>
     
 
