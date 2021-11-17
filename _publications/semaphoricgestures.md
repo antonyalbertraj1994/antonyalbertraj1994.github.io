@@ -1,15 +1,15 @@
 ---
-title: "PocketView: Through-Fabric Information Displays, UIST 2021"
+title: "Haptic Learning of Freehand Semaphoric Gestures, UIST 2016
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
-authors: Antony Albert Raj Irudayaraj,Rishav Agarwal,Nikhita Joshi, Aakar Gupta, Omid Abari, Daniel Vogel
-image_proj: /images/pocketview_thumb.png
-proj_desc: It is sometimes inconvenient to view information from your phone when it is stored away in a pocket or bag. This retrieval process can be cumbersome when holding a shopping bag and potentially dangerous while biking. So, we explore the idea of directly viewing information through the fabric of a pocket using low-resolution bright LED matrix displays.
+authors: Aakar Gupta, Antony Irudayaraj,Vimal Chandran, Goutham Palaniappan, Khai Troung, Ravin Balakrishnan Ravin Balakrishnan
+image_proj: /images/semaphoricgestures.png
+proj_desc: We studied on using haptic-based learning to teach semaphoric finger gestures. We attached vibration motor on the users finger. Different patterns were generated on the finger to correpond to a finger gesture. We conducted a two day study to test the recall rate of gesture learning using haptics and compared it with visual+haptic and audio methods.
 
-pdf: 'https://www.youtube.com/watch?v=IQ1f2N0jcTk'
-acmlink: 'https://www.youtube.com/watch?v=IQ1f2N0jcTk'
-video: 'https://www.youtube.com/watch?v=IQ1f2N0jcTk'
-talk: 'https://www.youtube.com/watch?v=IQ1f2N0jcTk'
+pdf: 
+acmlink: 'https://dl.acm.org/doi/10.1145/2984511.2984558'
+video: 'https://www.youtube.com/watch?v=euy65aaQDy0'
+talk: 'https://www.youtube.com/watch?v=BPl3ZwspyAM'
 citation:
 ---
 
