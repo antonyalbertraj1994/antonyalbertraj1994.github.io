@@ -51,15 +51,15 @@
     {% endif %}
     
     {% if post.proj_desc %}
-      <p style="text-align:left; padding:10px; margin:10px"> {{ post.proj_desc }} </p>
+      <p style="text-align:left; padding:10px; margin:10px"> {{ post.proj_desc }} </p> <br>
     {% endif %}
     
     {% if post.pdf %}
-      <div style="margin: auto; padding-left:130px; padding-right:15px"> <a href="{{ post.pdf }}">PDF</a> </div>
+      <div style="margin: auto; padding:10px; padding-right:15px"> <a href="{{ post.pdf }}">PDF</a> </div>
     {% endif %}
     
     {% if post.acmlink %}
-      <div style="margin: auto; padding-right:15px"> <a href="{{ post.acmlink }}">DOI</a> </div>
+      <div style="margin: auto; padding:10px"> <a href="{{ post.acmlink }}">DOI</a> </div>
     {% endif %}
     
     {% if post.video %}
