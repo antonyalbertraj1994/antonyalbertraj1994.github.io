@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
 authors: Aakar Gupta, Antony Albert Raj Irudayaraj, Ravin Balakrishnan
 image_proj: /images/hapticclench.png
-proj_desc: It is sometimes inconvenient to view information from your phone when it is stored away in a pocket or bag. This retrieval process can be cumbersome when holding a shopping bag and potentially dangerous while biking. So, we explore the idea of directly viewing information through the fabric of a pocket using low-resolution bright LED matrix displays.
+proj_desc: Vibrotactile feedback is the most common type of haptic feedback and commonly used in mobile and wearable devices. We investigated using shape memory to generate squeeze sensation on the wrist and finger. SMA's contract its length when heat or current supplied to it to generates the squeeze sensations. We ran experiments to evaluate the physophysical properties of these squeeze sensations.
 
 pdf: 
 acmlink: 'https://dl.acm.org/doi/10.1145/3126594.3126598'
