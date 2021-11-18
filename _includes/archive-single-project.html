@@ -36,8 +36,7 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2> -->
-     {% if post.image_proj %}
-<!--       <h1> {{base_path}}{{ post.image_proj }} </h1> -->
+    {% if post.image_proj %}
       <img src="{{base_path}}{{ post.image_proj }}" style="padding-right:10px;padding-bottom:-10px" align="left" height="200" width="200">
     {% endif %}
     
@@ -48,6 +47,7 @@
     {% if post.proj_desc %}
       <p style="text-align:left"> {{ post.proj_desc }} </p> 
     {% endif %}
+    <br>
     
 <!--     <center>
     {% if post.acmlink %}
