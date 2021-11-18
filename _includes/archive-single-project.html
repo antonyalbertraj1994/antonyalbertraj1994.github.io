@@ -13,7 +13,9 @@
 {% endif %}
 
 
-
+.value{
+background-color:tomato;
+}
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
@@ -36,18 +38,19 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2> -->
-    {% if post.image_proj %}
-      <img src="{{base_path}}{{ post.image_proj }}" style="padding-right:10px;padding-bottom:-10px" align="left" height="200" width="200">
-    {% endif %}
-    
-    {% if post.title %}
-      <b style="text-align:left;padding-bottom:5px"> {{ post.title }} </b> 
-    {% endif %}
-    
-    {% if post.proj_desc %}
-      <p style="text-align:left"> {{ post.proj_desc }} </p> 
-    {% endif %}
-  
+    <div class="value">
+      {% if post.image_proj %}
+        <img src="{{base_path}}{{ post.image_proj }}" style="padding-right:10px;padding-bottom:-10px" align="left" height="200" width="200">
+      {% endif %}
+
+      {% if post.title %}
+        <b style="text-align:left;padding-bottom:5px"> {{ post.title }} </b> 
+      {% endif %}
+
+      {% if post.proj_desc %}
+        <p style="text-align:left"> {{ post.proj_desc }} </p> 
+      {% endif %}
+    </div>
     
 <!--     <center>
     {% if post.acmlink %}
