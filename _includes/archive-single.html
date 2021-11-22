@@ -26,6 +26,12 @@ p{
   padding-bottom: 0px;  
 }
   
+.value1{
+  padding-bottom:10px;
+  display: block;
+  }
+  
+  
 </style>
 
 
@@ -60,15 +66,18 @@ p{
         <b style="text-align:left;margin-bottom:15px;padding-bottom:0px"> {{ post.title }} </b> <br>
       {% endif %}
 
-
+      
       {% if post.authors %}
         <b style="text-align:left;font-size:15px"> {{ post.authors }} </b>
       {% endif %}
-
+    
+      
       {% if post.proj_desc %}
         <p style="text-align:left"> {{ post.proj_desc }} </p> 
       {% endif %}
-
+    </div>
+    
+    <div class="value1">
      
       {% if post.acmlink %}
         <b style="padding-right:15px"> <a href="{{ post.acmlink }}">DOI</a> </b>
