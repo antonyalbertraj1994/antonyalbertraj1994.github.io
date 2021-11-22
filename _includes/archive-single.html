@@ -78,19 +78,19 @@ p{
     </div>
     
     <div class="value1">
-     
-      {% if post.acmlink %}
-        <b style="padding-right:15px"> <a href="{{ post.acmlink }}">DOI</a> </b>
-      {% endif %}
+     <center>
+        {% if post.acmlink %}
+          <b style="padding-right:15px"> <a href="{{ post.acmlink }}">DOI</a> </b>
+        {% endif %}
 
-      {% if post.video %}
-        <b style="padding-right:15px"> <a href="{{ post.video }}">VIDEO</a> </b>
-      {% endif %}
+        {% if post.video %}
+          <b style="padding-right:15px"> <a href="{{ post.video }}">VIDEO</a> </b>
+        {% endif %}
 
-      {% if post.talk %}
-        <b> <a href="{{ post.talk }}">TALK</a> </b> 
-      {% endif %}
- 
+        {% if post.talk %}
+          <b> <a href="{{ post.talk }}">TALK</a> </b> 
+        {% endif %}
+     </center>
     </div>
 
     
