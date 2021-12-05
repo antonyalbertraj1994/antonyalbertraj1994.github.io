@@ -17,6 +17,14 @@
 padding-bottom:10px;
 display: block;
 }
+b{
+  padding-bottom:0px;  
+}
+  
+p{
+  padding-bottom: 0px;  
+}
+  
 </style>
 
 <div class="{{ include.type | default: "list" }}__item">
@@ -46,7 +54,7 @@ display: block;
       {% endif %}
 
       {% if post.title %}
-        <b style="text-align:left;padding-bottom:5px"> {{ post.title }} </b> <br> 
+        <b style="text-align:left;padding-bottom:5px"> {{ post.title }} </b> 
       {% endif %}
 
       {% if post.proj_desc %}
