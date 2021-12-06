@@ -1,7 +1,8 @@
 ---
 title: "SmartShoppers"
 image_proj: /images/smartshoppers.PNG
-proj_desc: It helps to keep track of shopping list by keeping track of objects by using tagged objects. Every objects in the market should be ideally tagged with tags. Then, a hand worn wearable device will be able to track the tagged object. Then, grocery list will be updated automitically showing the remaining item buy from the grocery list. 
+proj_desc: Do you find it cumbersome to keep track of things to buy in a grocery store? Smartshoppers can detect and keep track of shopping items using a NFC reader attached to your arm. Firstly, the users adds a list of items into an Android app. Then, the user taps a tagged item on the wearable device to register its purchase and an LCD display shows the remaining item in the grocery list.  In future, this system can be embedded into a smartwatch to make shopping easier.  
+video:
 ---
 
 
