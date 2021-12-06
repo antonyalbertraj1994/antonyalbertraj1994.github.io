@@ -1,7 +1,7 @@
 ---
 title: "SmartShoppers"
 image_proj: /images/smartshoppers.PNG
-proj_desc: Do you find it cumbersome to keep track of things to buy in a grocery store? Smartshoppers can detect and keep track of shopping items using a NFC reader attached to your arm. Firstly, the users adds a list of items into an Android app. Then, the user taps a tagged item on the NFC reader to register its purchase and an LCD display shows the remaining item in the grocery list.  In future, this system can be embedded into a smartwatch to make shopping easier.  
+proj_desc: Do you find it cumbersome to keep track of things to buy in a grocery store? Smartshoppers can detect and keep track of shopping items using a NFC reader attached to your arm. Firstly, the users adds a list of items into an Android app. Then, the user taps a NFC tagged item onto the NFC reader to register its purchase and an LCD display shows the remaining item in the grocery list.  In future, this system can be embedded into a smartwatch to make shopping easier.  
 video:
 ---
 
